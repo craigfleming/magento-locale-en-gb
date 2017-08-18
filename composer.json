@@ -2,9 +2,10 @@
     "name": "staempfli/locale-en-gb",
     "license": ["MIT"],
     "type": "magento-module",
-    "description": "British (en_GB) Magento language pack.",
+    "version": "1.0.0",
+    "description": "British (en_GB) Magento 1 language pack.",
     "homepage": "https://github.com/staempfli/magento-locale-en-gb",
-    "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+	"require":{
+		"magento-hackathon/magento-composer-installer":"^3.0.0"
+	}
 }
